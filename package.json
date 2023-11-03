@@ -1,0 +1,33 @@
+{
+  "name": "rhp",
+  "version": "0.4.2",
+  "description": "rhp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jokester/rhp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jokester/rhp/issues"
+  },
+  "author": "Wang Guan <momocraft@gmail.com>",
+  "homepage": "https://github.com/jokester/rhp#readme",
+  "bin": {
+    "rhp": "bin/rhp"
+  },
+  "files": [
+    "bin",
+    "src",
+    "binding.gyp",
+    "find-ldpreload.js",
+    "prebuilds"
+  ],
+  "url": "https://github.com/jokester/rhp",
+  "scripts": {
+    "demo": "rhp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "BSD",
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
